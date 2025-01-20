@@ -1,0 +1,92 @@
+# Bu dosya Unity için .gitignore'dur
+# Daha fazla bilgi için: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity'nin oluşturduğu dosyalar
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Unity'nin sıkıştırılmış cache dosyaları
+/[Aa]ssets/StreamingAssets/UnityPlayer.log
+
+# Kullanıcı tarafından oluşturulan ayar dosyaları
+UserSettings/
+
+# Visual Studio dosyaları
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# MonoDevelop-Unity dosyaları
+*.pidb
+*.unityproj
+
+# Diğer IDE'ler ve editörler
+.idea/
+*.tmproj
+
+# Çalışma alanı ve metadata dosyaları
+*.swp
+*.tmp
+*.bak
+*.orig
+*.sublime-project
+*.sublime-workspace
+
+# Unity'nin meta dosyaları
+*.unitypackage
+
+# Çöp ve geçici dosyalar
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Özel platformlarla ilgili dosyalar
+# Windows
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# MacOS
+*.app
+
+# Linux
+*.so
+
+# Android
+*.apk
+*.aab
+
+# iOS
+*.ipa
+
+# Diğer geçici dosyalar
+*.log
+
+# Paket yönetimi dosyaları
+/Packages/*.json
+/Packages/packages-lock.json
+/Packages/manifest.json.meta
+
+# Proje ayarları
+ProjectSettings/ProjectVersion.txt
+
+# Unity Collaborate için
+/[Uu]ploads/
